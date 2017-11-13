@@ -109,8 +109,8 @@ def create_connections(url):
 
 
 ws = create_connections(poloniex)
-subscribetostream(ws)
-listentostream(ws)
+subscribe(ws)
+listen(ws)
 unsubscribe(ws)
 ws.close()
 print("success exit")
